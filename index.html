@@ -1,0 +1,330 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+    <title>FoodWebsite</title>
+</head>
+<body>
+    <nav>
+        <div class="nav__header">
+            <div class="logo nav__logo">
+                <a href="#">Valps <span> Hamburg</span></a>
+            </div>
+            <div class="nav__menu__button" id="menu-button">
+                <span><i class="ri-menu-line"></i></span>
+            </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Especiais</a></li>
+            <li><a href="#">Chef</a></li>
+            <li><a href="#">Cliente</a></li>
+            <li><a href="#">Fale conosco</a></li>
+        </ul>
+        <div class="nav__button">
+            <button class="button"><i class="ri-shopping-bag-fill"></i></button>
+        </div>
+    </nav>
+            <section class="section__container header__container" id="home">
+             <div class="header__image">
+                <img src="assets/chicken-burger.png" alt="header image">
+             </div>   
+                <div class="header__content">
+                    <h1>Conheça, Prove e Aprecie O <span>Sabor Autêntico</span> </h1>
+                    <p class="section__description">
+                    Descubra a verdadeira essência do prazer culinário ao conhecer, provar e saborear os sabores autênticos que definem nossa paixão pela gastronomia.     
+                    </p>
+                    <div class="header__button">
+                        <button class="button">Faça seu pedido!</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__container special__container" id="special">
+                <h2 class="section__header">Especiais</h2>
+                <p class="section__description">
+                    Cada burguer promete uma experiência gastronômica inesquecível, mesclando inovação e tradição para encantar seus sentidos.
+                </p>
+
+                <div class="special__grid">
+                    <div class="special__card">
+                        <img src="assets/main-burguer.jpg" alt="Main Burger">
+                        <h4>ValpsHamburg Main</h4>
+                        <p>
+                          Nosso clássico hambúrguer: blend de carne nobre grelhado na chapa, coberto com queijo fundido, alface fresca, tomates, cebola roxa e nossa maionese da casa. Servido em pão brioche tostado com batatas rústicas crocantes.  
+                        </p>
+                        <div class="special__ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <div class="special__footer">
+                            <p class="price">R$ 27,50</p>
+                            <button class="button">Adicionar ao pedido</button>
+                        </div>
+                    </div>
+                    <div class="special__card">
+                        <img src="assets/buffalo-chicken-burger.jpg" alt="Main Burger">
+                        <h4>Buffalo ValpsChicken Hamburg</h4>
+                        <p>
+                          Nosso famoso Buffalo Chicken: generosas camadas de frango empanado na perfeição, envolvido em nosso autêntico molho buffalo levemente picante, coberto com queijo cheddar fundido, alface crocante, picles caseiros e maionese artesanal. Servido em pão com gergelim tostado e acompanhado de batatas fritas sequinhas.
+                        </p>
+                        <div class="special__ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <div class="special__footer">
+                            <p class="price">R$ 29,90</p>
+                            <button class="button">Adicionar ao pedido</button>
+                        </div>
+                    </div>
+                    <div class="special__card">
+                        <img src="assets/double-bacon.jpg" alt="Main Burger">
+                        <h4>Double ValpsBacon Hamburg</h4>
+                        <p>
+                          Nosso irresistível hambúrguer duplo: dois generosos blends de carne premium smash grelhados até formarem uma crosta perfeita, cobertos com queijo cheddar fundido escorrendo, cebola caramelizada docemente equilibrada, picles crocantes, tomate fresco, alface e nosso exclusivo molho rosé. Abraçados por um pão brioche artesanal com mix de gergelim preto e branco.
+                        </p>
+                        <div class="special__ratings">
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                            <span><i class="ri-star-fill"></i></span>
+                        </div>
+                        <div class="special__footer">
+                            <p class="price">R$ 34,90</p>
+                            <button class="button">Adicionar ao pedido</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__container explore__container">
+                <div class="explore__image">
+                    <img src="assets/explorar-burgers.jpg" alt="Explorar">
+                </div>
+                <div class="explore__content">
+                    <h1 class="section__header">
+                        Hambúrgueres autênticos, sabor incomparável e irresistível.
+                    </h1>
+                    <p class="section__description">
+                        Delicie-se sem culpa com nosso compromisso em servir hambúrgueres saborosos e de qualidade. Explore um cardápio desenvolvido para equilibrar sabor e ingredientes premium, garantindo que cada mordida seja ao mesmo tempo satisfatória e genuína.
+                    </p>
+                    <div class="explore_button">
+                        <button class="button">
+                            Explorar cardápio
+                            <span><i class="ri-arrow-right-line"></i></span>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section__container banner__container">
+                <div class="banner__card">
+                    <span class="banner__icon"><i class="ph ph-hamburger"></i></span>
+                    <h4>Peça seu Burguer</h4>
+                    <p>
+                        Seu <span class="highlight"> Hamburg</span> favorito a poucos cliques de distância. Navegue pelo nosso menu diversificado, faça seu pedido online com total praticidade e saboreie a qualidade Valps Hamburg onde estiver.
+                    </p>
+                    <a href="#">
+                        Saiba Mais <span><i class="ri-arrow-right-line"></i></span>
+                    </a>
+                </div>
+                 <div class="banner__card">
+                    <span class="banner__icon"><i class="ri-truck-fill"></i></span>
+                    <h4>Pra todos os gostos</h4>
+                    <p>
+                        Personalize sua experiência gastronômica escolhendo entre uma variedade tentadora de opções. Para desejos salgados, doces ou algo entre os dois, encontre o <span class="highlight"> Hamburg</span> perfeito para satisfazer seu apetite.
+                    </p>
+                    <a href="#">
+                        Saiba Mais <span><i class="ri-arrow-right-line"></i></span>
+                    </a>
+                </div>
+                 <div class="banner__card">
+                    <span class="banner__icon"><i class="ri-star-smile-fill"></i></span>
+                    <h4>Aproveite sua experiência</h4>
+                    <p>
+                        Sente-se, relaxe e saboreie os sabores enquanto seu <span class="highlight"> Hamburg</span> cuidadosamente preparado chega. Delicie-se com a delícia de cada mordida, sabendo que sua satisfação é nossa prioridade máxima.
+                    </p>
+                    <a href="#">
+                        Saiba Mais <span><i class="ri-arrow-right-line"></i></span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="chef" id="chef">
+                <img src="assets/Seasonings-burger.jpg" alt="topping" class="chef__background">
+                <div class="section__container chef__container">
+                    <div class="chef__image">
+                        <img src="assets/burger-chef-removebg-preview.png" alt="chef">
+                    </div>
+                    <div class="chef__content">
+                        <h2 class="section__header">Feito Pelos Melhores Chefs Do Mundo</h2>
+                        <p class="section__description">
+                            Embarque em uma jornada gastronômica com a Valps<span class="highlight"> Hamburg</span>, onde cada burger conta uma história e é elaborado pensando no melhor sabor.
+                        </p>
+                        <ul class="chef__list">
+                            <li>
+                                <span><i class="ri-checkbox-fill"></i></span>
+                                  Saboreie a brilhância culinária de chefs mestres de todo o mundo.  
+                            </li>
+                            <li>
+                                <span><i class="ri-checkbox-fill"></i></span>
+                                  Experimente criações inovadoras com atenção aos detalhes.  
+                            </li>
+                            <li>
+                                <span><i class="ri-checkbox-fill"></i></span>
+                                  Aprecie pratos elaborados com paixão inabalável pela perfeição. 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonial__section">
+                <h2 class="section__header">Avaliações Dos Nossos Clientes</h2>
+                <p class="section__description">
+                    Descubra experiências em primeira mão e depoimentos de nossos valiosos clientes. Explore os feedbacks e avaliações que demonstram nosso compromisso com qualidade, serviço e satisfação do cliente.
+                </p>
+
+                <div class="testimonial__container" id="testimonial-container">
+                    <div class="testimonial__card active">
+                        <p>
+                            A expertise culinária da Valps<span class="highlight"> Hamburg</span> nunca deixa de impressionar! Cada hambúrguer é uma obra-prima, repleto de sabor e frescor.
+                        </p>
+                        <img src="assets/retrato-de-um-homem-saindo-para-comprar-varios-bens-de-consumo.jpg" alt="client">
+                        <h4>Dimas Segundo</h4>
+                        <h5>Executivo de finanças</h5>
+                    </div>
+                </div>
+                <div class="testimonial__container" id="testimonial-container">
+                    <div class="testimonial__card active">
+                        <p>
+                            Simplesmente excepcional! A Valps<span class="highlight"> Hamburg</span> transformou minha visão sobre hambúrgueres artesanais. Ingredientes de primeira qualidade e um atendimento impecável que fazem toda a diferença.
+                        </p>
+                        <img src="assets/garoto-confiante-posando-contra-parede-branca.jpg" alt="client">
+                        <h4>Maycon Filho</h4>
+                        <h5>Influencer</h5>
+                    </div>
+                </div>
+                <div class="testimonial__container" id="testimonial-container">
+                    <div class="testimonial__card active">
+                        <p>
+                            Cada visita à Valps<span class="highlight"> Hamburg</span> é uma experiência memorável! Os hambúrgueres são suculentos, perfeitamente temperados e chegam sempre quentinhos. Virei cliente fiel!
+                        </p>
+                        <img src="assets/pessoa-de-origem-indiana-se-divertindo.jpg" alt="client">
+                        <h4>Marisa Jackson</h4>
+                        <h5>Cantora e Compositora</h5>
+                    </div>
+                </div>
+
+                <div class="dots" id="dots">
+
+                </div>
+            </section>
+
+            <footer class="footer" id="contact">
+                <div class="section__container footer__container">
+                    <div class="footer__column">
+                        <div class="logo footer__logo">
+                            <a href="#">Valps<span> Hamburg</span></a>
+                            <p class="section__description">
+                               Embarque em uma jornada gastronômica com a Valps<span class="highlight"> Hamburg</span>, onde cada mordida conta uma história e cada hambúrguer é elaborado à perfeição. 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Produto</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Especiais</a></li>
+                            <li><a href="#">Mais Pedidos</a></li>
+                            <li><a href="#">Opções Veganas</a></li>
+                            <li><a href="#">Ofertas Sazonais</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_column">
+                        <h4>Information</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">Sobre Nós</a></li>
+                            <li><a href="#">Fale Conosco</a></li>
+                            <li><a href="#">Informações Nutricionais</a></li>
+                            <li><a href="#">Informações Alérgicas</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__column">
+                        <h4>Companhia</h4>
+                        <ul class="footer__links">
+                            <li><a href="#">Nossa História</a></li>
+                            <li><a href="#">Carreiras</a></li>
+                            <li><a href="#">Termos de Uso</a></li>
+                            <li><a href="#">Políticas de Privacidade</a></li> 
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__bar">
+                    Copyright - 2025 LucasValpereiro. All rights reserved.
+                </div>
+            </footer>
+
+
+            <script>
+                const menuButton = document.getElementById('menu-button');
+                const navLinks = document.getElementById('nav-links');
+
+                menuButton.addEventListener('click', () => {
+                    navLinks.classList.toggle('open');
+                });
+        </script>
+
+        <script>
+            const cards = document.querySelectorAll(".testimonial__card");
+            const dotsContainer = document.getElementById("dots");
+            let currentIndex = 0;
+
+            cards.forEach((_, idx) => {  
+            const dot = document.createElement('span');  
+            dot.addEventListener('click', () => showSlide(idx));  
+            dotsContainer.appendChild(dot);
+});
+
+            const dots = document.querySelectorAll(".dots span");
+
+            function showSlide(index){
+            cards.forEach(card => card.classList.remove('active'));  
+            dots.forEach(dot => dot.classList.remove('active'));     
+            cards[index].classList.add("active");
+            dots[index].classList.add("active");
+            currentIndex = index;
+}
+
+            function autoSlide(){
+            currentIndex = (currentIndex + 1) % cards.length; 
+            showSlide(currentIndex);
+}
+
+            showSlide(currentIndex);
+            setInterval(autoSlide, 5000/*5sec*/);
+        </script>
+    </body>
+</html>
