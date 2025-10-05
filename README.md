@@ -20,7 +20,7 @@ Landing page de uma hamburgueria fictícia chamada "Valps Hamburg". O site apres
 
 - HTML5
 - CSS3
-- JavaScript (se houver)
+- JavaScript 
 - Design responsivo
 
 ## 🍔 Cardápio Apresentado
@@ -67,5 +67,6 @@ ValpsHamburg/
 ---
 
 Desenvolvido como projeto de portfólio 🍔✨
+
 
 
